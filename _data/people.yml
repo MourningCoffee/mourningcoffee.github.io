@@ -1,0 +1,14 @@
+
+- name: Chris Calogero
+  role: Host
+  image: assets/img/chris-profile.jpg
+  description: Test
+  twitter: https://twitter.com/realchriscal
+  instagram: https://www.instagram.com/realchriscal/
+  homepage: http://www.chriscalogero.com/
+
+- name: John Rosenberger
+  role: Producer
+  image: assets/img/john-profile.jpg
+  description: Test
+  twitter: https://twitter.com/JohnJohnPhenom

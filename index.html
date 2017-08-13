@@ -1,0 +1,105 @@
+---
+layout: default
+---
+
+		
+		
+		
+		<!-- ===== PAGE HEADER ===== -->
+			<header class="page-header" style="background-image: url(https://assets.podomatic.net/ts/4a/c2/8c/mourningcoffeepodcast/300x300_11977392.jpg?1491148584)">
+				<div class="page-header-inner">
+					<div class="container">
+
+
+						<!-- ===== PAGE HEADER CONTENT ===== -->
+						<div class="page-header-content text-center">
+						  <p>A little stuff about this great podcast.</p>
+						</div>
+
+					</div>
+				</div>
+			</header>
+		
+		
+		<!-- ===== MAIN ===== -->
+		<main id="main" class="main">
+			
+			<!-- ===== PODCAST LIST ===== -->
+			<section id="#episodes" class="section-positive">
+				<div class="container">
+					
+					<!-- ===== SECTION TITLE ===== -->
+					<h2 class="title-default">Latest Episodes</h2>
+
+
+
+
+					{% assign episodes = site.episodes | sort: 'number' %}
+					{% for episode in episodes reversed %}
+						{% if forloop.first %}
+							{% include top-episode-card.html %}
+						{% else %}
+							{% include episode-card.html %}
+						{% endif %}
+					{% endfor %}
+
+
+
+					<div class="row" id="latest-episodes"></div>
+
+					<div class="row">
+						<div class="col-sm-12 mb-50">
+							<a href="podcasts.html" class="btn btn-primary btn-block btn-lg">View more episodes</a>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			
+			<!-- ===== ABOUT US ===== -->
+			<section id="about-us" class="section-negative">
+				<div class="container">
+					
+					<!-- ===== SECTION TITLE ===== -->
+					<h2 class="title-default text-center" id="mourning-baristas">Mourning Baristas</h2>
+					
+					<div class="row mb-30 row-centered">
+						
+						<!-- ===== TEAM CARD ===== -->
+						{% for person in site.data.people %}
+						<div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-6 mb-40 col-centered">
+							<div class="team-card">
+								<figure class="team-card-image"><img src="{{site.baseurl}}{{person.image}}" alt="John Doe" title="John Doe" /></figure>
+								<div class="team-card-content">
+									<h2 class="team-card-title">{{person.name}}</h2>
+									<p class="team-card-job">{{person.role}}</p>
+									<p class="team-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat itaque optio minus perferendis tempora, libero in fugiat, quisquam molestiae.</p>
+									<ul class="team-card-social">
+										{% if person.facebook %}
+											<li class="social-item"><a href="{{person.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+										{% endif %}
+										{% if person.twitter %}
+											<li class="social-item"><a href="{{person.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+										{% endif %}
+										{% if person.instagram %}
+											<li class="social-item"><a href="{{person.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+										{% endif %}
+										{% if person.homepage %}
+											<li class="social-item"><a href="{{person.homepage}}" target="_blank"><i class="fa fa-link"></i></a></li>
+										{% endif %}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						
+						
+					</div>
+					
+				</div>
+			</section>
+			
+
+			
+		</main>
+		

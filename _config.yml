@@ -1,0 +1,46 @@
+
+# Site settings
+
+
+title: Mourning Coffee
+description: > # this means to ignore newlines until "baseurl:"
+  Mourning Coffee is a podcast about grief
+baseurl: "/"
+url: "http://kalebogdanovs.com"
+author: Chris Calogero
+email: chris.calogero@gmail.com
+image: /assets/img/mourning-coffee-300x300.jpg
+
+
+feedlimit: 100
+
+
+
+
+
+
+
+
+
+
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+sass:
+    sass_dir: assets/css
+
+collections:
+  episodes:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: episodes
+    values:
+      layout: episode_page
