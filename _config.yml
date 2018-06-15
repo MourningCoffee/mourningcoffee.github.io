@@ -6,11 +6,17 @@ title: Mourning Coffee
 description: > # this means to ignore newlines until "baseurl:"
   Mourning Coffee is a podcast about grief
 baseurl: "/"
-url: "http://kalebogdanovs.com"
+url: ""
 author: Chris Calogero
 email: chris.calogero@gmail.com
 image: /assets/img/mourning-coffee-300x300.jpg
-
+top_episodes:
+  - 45
+  - 21
+  - 56
+  - 31
+  - 67
+  - 11
 
 feedlimit: 100
 
