@@ -1,4 +1,4 @@
-number: 11
+number: 13
 title: Dewey Lovett
 date: 2016-6-13
 image: Dew.jpg
