@@ -1,7 +1,11 @@
+---
 number: 2
-title: Our Second Episode
+title: John Rosenberger
 date: 2016-04-21
-image: 13001063_1310740702288474_9168009179510112068_n.jpg
+image: John-Rosenberger.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/MC%20Episode%202.mp3
 duration: 48:37
 filesize: 70012132
+---
+
+Producer John Rosenberger is our first ever guest! We talk about addiction and how it can feel like loss.
