@@ -1,5 +1,5 @@
 ---
-number:4 
+number: 4 
 title: JP McDade
 date: 2016-5-4
 image: JP.jpg
