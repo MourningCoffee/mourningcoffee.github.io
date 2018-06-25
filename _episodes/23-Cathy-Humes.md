@@ -1,7 +1,7 @@
 ---
 number: 23
 title: Cathy Humes
-date: 2016-6-6
+date: 2016-09-26
 image: Cathy-Humes.jpg
 audio: 
 duration:
