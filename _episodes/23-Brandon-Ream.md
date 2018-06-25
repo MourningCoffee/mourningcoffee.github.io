@@ -8,4 +8,4 @@ duration: 42:43
 filesize: 37938849 
 ---
 
-Brandon ream joins me to talk about leaving your old life behind to pursue your dreams
+Brandon ream joins me to talk about leaving your old life behind to pursue your dream
