@@ -1,5 +1,5 @@
 ---
-number: 25 
+number:  
 title: Patrick J. Reilly
 date: 2016-7-29
 image: Patrick-Reilly.jpg
