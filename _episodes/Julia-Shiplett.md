@@ -1,6 +1,6 @@
 ---
 number: 
-title: Julia SHiplett
+title: Julia Shiplett
 date: 2017-12-04
 image: Julia-Shiplett.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Julia%20Shiplett%20Release.mp3
