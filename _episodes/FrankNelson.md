@@ -1,5 +1,5 @@
 ---
-number: 10
+number:
 title: Frank Nelson
 date: 2016-6-6
 image: Frank-Nelson.jpg
