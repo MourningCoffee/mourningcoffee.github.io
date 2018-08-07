@@ -6,19 +6,7 @@ layout: default
 		
 		
 		<!-- ===== PAGE HEADER ===== -->
-			<header class="page-header" style="background-image: url(https://assets.podomatic.net/ts/4a/c2/8c/mourningcoffeepodcast/300x300_11977392.jpg?1491148584)">
-				<div class="page-header-inner">
-					<div class="container">
-
-
-						<!-- ===== PAGE HEADER CONTENT ===== -->
-						<div class="page-header-content text-center">
-						  <p>A little stuff about this great podcast.</p>
-						</div>
-
-					</div>
-				</div>
-			</header>
+{% include header.html %}
 		
 		
 		<!-- ===== MAIN ===== -->
@@ -29,23 +17,32 @@ layout: default
 				<div class="container">
 					
 					<!-- ===== SECTION TITLE ===== -->
-					<h2 class="title-default">Latest Episodes</h2>
-
-
-
-
+					<h2 id="featured-episodes" class="title-default">Latest Episode</h2>
+					
 					{% assign episodes = site.episodes | sort: 'number' %}
 					{% for episode in episodes reversed %}
 						{% if forloop.first %}
 							{% include top-episode-card.html %}
-						{% else %}
-							{% include episode-card.html %}
+							{% break %}
 						{% endif %}
+					{% endfor %}
+					
+					<h2 class="title-default">Featured Episodes</h2>
+
+					{% for top_episode in site.top_episodes %}
+						{% for episode in episodes %}
+							{% if episode.number == top_episode %}
+								{% include episode-card.html %}
+								{% break %}
+							{% endif %}
+						{% endfor %}
 					{% endfor %}
 
 
 
-					<div class="row" id="latest-episodes"></div>
+
+
+			
 
 					<div class="row">
 						<div class="col-sm-12 mb-50">

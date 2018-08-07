@@ -8,4 +8,4 @@ duration: 52:36
 filesize: 46350336 
 ---
 
-[Description] 
+Ben Wasserman is an asshole with huge glasses. He stopped by the pod to talk about baristas and being the King of Alt Comedy

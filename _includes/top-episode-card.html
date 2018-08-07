@@ -4,16 +4,18 @@
         <div class="podcast-content">
             <span class="podcast-date">{{episode.date | date: "%B %e, %Y"}}</span>
             <h2 class="podcast-title">{{episode.title}}</h2>
-            <p class="podcast-excerpt">{{episode.description}}</p>
+            <p class="podcast-excerpt">{{episode.content}}</p>
+            <!--
             <ul class="podcast-meta">
                 <li class="item"><i class="fa fa-clock-o"></i> {{episode.duration | divided_by: 60 | floor }} minutes</li>
                 <li class="item"><a href="{{episode.url}}" class="podcast-play" target="_blank"><i class="fa fa-play"></i> Play Episode</a></li>
-                </ul>
+            </ul>
+            -->
             <div class="podcast-hero-player-content">
                 <div class="player-container">
                     <audio src="{{episode.audio}}"></audio>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>

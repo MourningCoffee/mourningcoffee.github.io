@@ -67,6 +67,7 @@ video {
 	height: 100%;
 }
 
+
 a {
 	text-decoration: none;
 	border: 0;
@@ -1393,9 +1394,15 @@ form .form-callback.error {
 
 .logo {
 	float: left;
-	padding: 25px 0;
+	padding: 32px 0;
 	margin: 0;
 	line-height: 0;
+	color: white;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.logo a {
+	color: white;
 }
 
 /* ========================= */
@@ -1479,7 +1486,7 @@ form .form-callback.error {
 .btn-hamburguer-menu {
 	float: right;
 	color: #fff;
-	padding: 19px 20px;
+	padding: 10px;
 	font-size: 22px;
 	font-size: 2.2rem;
 }
@@ -1879,7 +1886,7 @@ form .form-callback.error {
 }
 
 .podcast-card.boxed .podcast-excerpt {
-	height: 40px;
+	height: 60px;
 }
 
 /* ========================= */
@@ -2010,7 +2017,7 @@ form .form-callback.error {
 .page-header-podcast,
 .page-error {
 	position: relative;
-	height: 450px;
+	height: 100vh;
 	padding: 0;
 	margin: 0;
 	background-position: center center;
@@ -2034,11 +2041,6 @@ form .form-callback.error {
 	width: 100%;
 	height: 200px;
 	display: block; /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background-image: -webkit-linear-gradient(to top, transparent, #18151f);
-	background-image: -moz-linear-gradient(to top, transparent, #18151f);
-	background-image: -o-linear-gradient(to top, transparent, #18151f);
-	background-image: linear-gradient(to top, transparent, #18151f); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#33000000', endColorstr='#00ffffff', GradientType=0); /* IE6-8 */
 }
 
 .page-header:after,
@@ -2064,11 +2066,9 @@ form .form-callback.error {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	padding-top: 140px;
-	background-color: #110f16;
-	background-color: rgba(17, 15, 22, 0.7);
+
 	zoom: 1;
-	background-color: transparent\9;
+
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#b3110f16, endColorstr=#b3110f16)";
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b3110f16, endColorstr=#b3110f16);
 	z-index: 5;
@@ -2473,7 +2473,7 @@ form .form-callback.error {
 @media screen and (min-width: 768px) {
 
 .podcast-card.boxed .podcast-title {
-	height: 50px;
+	height: 20px;
 }
 
 .page-pagination a {
@@ -2652,23 +2652,11 @@ form .form-callback.error {
 	height: 60px;
 }
 
-.page-header .page-header-inner,
-.page-header-podcast .page-header-inner,
-.page-error .page-header-inner {
-	padding-top: 50px;
-}
 
-.page-header h2,
-.page-header-podcast h2,
-.page-error h2 {
-	margin-top: 130px;
-}
 
-.page-header-podcast h2 {
-	font-size: 24px;
-	font-size: 2.4rem;
-	margin-top: 90px;
-}
+
+
+
 
 .page-error {
 	height: 500px;
@@ -2808,6 +2796,11 @@ form .form-callback.error {
     text-align:left;
     /* inline-block space fix */
     margin-right:-4px;
+}
+
+.header-container {
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
