@@ -3,7 +3,31 @@ layout: default
 ---
 
 		<!-- ===== PAGE HEADER ===== -->
-{% include header.html %}
+			<header class="page-header" style="height:100px">
+				
+				<div class="page-header-inner">
+					    <div class="container">
+
+        
+        <h1 class="logo"><a href="/">Mourning Coffee</a></h1>
+				<nav class="navigation">
+          
+            <ul class="menu">
+
+                <li class="menuitem"><a href="/#featured-episodes">Featured Episodes</a></li>
+                <li class="menuitem"><a href="/all-episodes">All Episodes</a></li>
+                <li class="menuitem"><a href="/#mourning-baristas">Mourning Baristas</a></li>
+            </ul>
+            
+            <a href="#" class="btn-hamburguer-menu"><i class="fa fa-bars"></i></a>
+        </nav>
+        
+
+
+    </div>
+					</div>
+				</div>
+			</header>
 
 <main id="main" class="main">
 			
@@ -12,38 +36,12 @@ layout: default
 				<div class="container">
 					
 					<!-- ===== SECTION TITLE ===== -->
-					<h2 id="featured-episodes" class="title-default">Latest Episode</h2>
+					<h2 id="featured-episodes" class="title-default">All Episodes</h2>
 					
 					{% assign episodes = site.episodes | sort: 'number' %}
-					{% for episode in episodes reversed %}
-						{% if forloop.first %}
-							{% include top-episode-card.html %}
-							{% break %}
-						{% endif %}
+					{% for episode in episodes reversed %}					
+							{% include all-episode-card.html %}
 					{% endfor %}
-					
-					<h2 class="title-default">Featured Episodes</h2>
-
-					{% for top_episode in site.top_episodes %}
-						{% for episode in episodes %}
-							{% if episode.number == top_episode %}
-								{% include episode-card.html %}
-								{% break %}
-							{% endif %}
-						{% endfor %}
-					{% endfor %}
-
-
-
-
-
-			
-
-					<div class="row">
-						<div class="col-sm-12 mb-50">
-							<a href="podcasts.html" class="btn btn-primary btn-block btn-lg">View more episodes</a>
-						</div>
-					</div>
 					
 				</div>
 			</section>

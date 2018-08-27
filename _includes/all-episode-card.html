@@ -1,0 +1,18 @@
+<div class="col-sm-12 mb-40">
+    <a href="{{episode.url}}" target="_blank">
+    <div class="podcast-card full">
+        <figure class="podcast-image"><img src="/episode-images/{{episode.image}}" /></figure>
+        <div class="podcast-content">
+            <span class="podcast-date">{{episode.date | date: "%B %e, %Y"}}</span>
+            <h2 class="podcast-title">{{episode.title}}</h2>
+            <p class="podcast-excerpt">{{episode.content}}</p>
+            <!--
+            <ul class="podcast-meta">
+                <li class="item"><i class="fa fa-clock-o"></i> {{episode.duration | divided_by: 60 | floor }} minutes</li>
+                <li class="item"><a href="{{episode.url}}" class="podcast-play" target="_blank"><i class="fa fa-play"></i> Play Episode</a></li>
+            </ul>
+            -->
+        </div>
+    </div>
+    </a>
+</div>
