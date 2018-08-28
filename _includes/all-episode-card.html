@@ -4,7 +4,7 @@
         <figure class="podcast-image"><img src="/episode-images/{{episode.image}}" /></figure>
         <div class="podcast-content">
             <span class="podcast-date">{{episode.date | date: "%B %e, %Y"}}</span>
-            <h2 class="podcast-title">{{episode.title}}</h2>
+            <h2 class="podcast-title">{{episode.title}} - {{episode.number}}</h2>
             <p class="podcast-excerpt">{{episode.content}}</p>
             <!--
             <ul class="podcast-meta">

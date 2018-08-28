@@ -16,7 +16,7 @@ layout: default
 
                 <li class="menuitem"><a href="/#featured-episodes">Featured Episodes</a></li>
                 <li class="menuitem"><a href="/all-episodes">All Episodes</a></li>
-                <li class="menuitem"><a href="/#mourning-baristas">Mourning Baristas</a></li>
+                <li class="menuitem"><a href="/#about">About</a></li>
             </ul>
             
             <a href="#" class="btn-hamburguer-menu"><i class="fa fa-bars"></i></a>
@@ -37,8 +37,9 @@ layout: default
 					
 					<!-- ===== SECTION TITLE ===== -->
 					<h2 id="featured-episodes" class="title-default">All Episodes</h2>
-					
+				
 					{% assign episodes = site.episodes | sort: 'number' %}
+					<p>Number of eps {{ episodes.size }}</p>
 					{% for episode in episodes reversed %}					
 							{% include all-episode-card.html %}
 					{% endfor %}

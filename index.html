@@ -58,7 +58,7 @@ layout: default
 				<div class="container">
 					
 					<!-- ===== SECTION TITLE ===== -->
-					<h2 class="title-default text-center" id="mourning-baristas">Mourning Baristas</h2>
+					<h2 class="title-default text-center" id="about">About Your Host</h2>
 					
 					<div class="row mb-30 row-centered">
 						
@@ -70,7 +70,7 @@ layout: default
 								<div class="team-card-content">
 									<h2 class="team-card-title">{{person.name}}</h2>
 									<p class="team-card-job">{{person.role}}</p>
-									<p class="team-card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat itaque optio minus perferendis tempora, libero in fugiat, quisquam molestiae.</p>
+									<p class="team-card-description">{{person.description}}</p>
 									<ul class="team-card-social">
 										{% if person.facebook %}
 											<li class="social-item"><a href="{{person.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>

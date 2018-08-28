@@ -2,13 +2,7 @@
 - name: Chris Calogero
   role: Host
   image: assets/img/chris-profile.jpg
-  description: Test
+  description: Chris Calogero is a comedian and writer in Brooklyn. He's been featured on Vice, Fusion TV, and AOL's 2 Point Lead web series. He has performed in the Cape Fear Comedy Festival, What a Joke National Comedy Festival, The Brookyln Comedy Festival, and more. He co-hosts "Not Quite Midnight" a hybrid stand-up comedy / late night show that has been featured in the New York Times.
   twitter: https://twitter.com/realchriscal
   instagram: https://www.instagram.com/realchriscal/
   homepage: http://www.chriscalogero.com/
-
-- name: John Rosenberger
-  role: Producer
-  image: assets/img/john-profile.jpg
-  description: Test
-  twitter: https://twitter.com/JohnJohnPhenom
