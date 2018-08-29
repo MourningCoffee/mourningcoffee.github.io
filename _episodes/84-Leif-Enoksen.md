@@ -1,5 +1,5 @@
 ---
-number: 
+number: 84 
 title: Leif Enoksen
 date: 2018-02-20
 image: Leif.jpg
