@@ -1,5 +1,5 @@
 ---
-number: 
+number: 78
 title: Danny Stratton
 date: 2017-12-13
 image: Danny-Stratton.jpg
