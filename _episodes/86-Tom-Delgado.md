@@ -1,5 +1,5 @@
 ---
-number: 
+number: 86
 title: Tom Delgado
 date: 2018-03-07
 image: Tom-Delgado.jpg
