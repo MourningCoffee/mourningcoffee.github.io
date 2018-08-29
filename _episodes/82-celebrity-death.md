@@ -1,5 +1,5 @@
 ---
-number: 
+number: 82
 title: Celebrity Death with Ahri Findling 
 date: 2018-02-07
 image: Ahri-Bingo.jpg
