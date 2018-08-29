@@ -1,5 +1,5 @@
 ---
-number: 
+number: 75
 title: Nick Pupo
 date: 2017-11-26
 image: Nick-Pupo.jpg
