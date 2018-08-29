@@ -1,5 +1,5 @@
 ---
-number: 
+number: 83
 title: Jon Schoss
 date: 2018-02-16
 image: Jon-Schoss.jpg
