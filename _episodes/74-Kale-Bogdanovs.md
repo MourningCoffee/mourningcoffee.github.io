@@ -1,5 +1,5 @@
 ---
-number: 
+number: 74
 title: Kale Bogdanovs
 date: 2017-11-14
 image: Kale.jpg
