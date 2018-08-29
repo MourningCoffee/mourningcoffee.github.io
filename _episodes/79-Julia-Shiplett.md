@@ -1,5 +1,5 @@
 ---
-number: 
+number: 79
 title: Julia Shiplett
 date: 2017-12-04
 image: Julia-Shiplett.jpg
