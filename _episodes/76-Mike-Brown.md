@@ -1,5 +1,5 @@
 ---
-number: 
+number: 76
 title: Mike Brown
 date: 2017-11-28
 image: Mike-Brown.jpg
