@@ -1,5 +1,5 @@
 ---
-number: 
+number: 43
 title: Carolyn Castiglia
 date: 2017-02-27
 image: Carolyn-Castiglia.jpg
