@@ -1,7 +1,7 @@
 ---
-number:  
+number:  27
 title: Patrick J. Reilly
-date: 2016-7-29
+date: 2016-10-26
 image: Patrick-Reilly.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Patrick%20J%20Reilly%20Release.mp3
 duration: 45:29
