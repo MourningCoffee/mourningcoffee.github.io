@@ -1,5 +1,5 @@
 ---
-number: 
+number: 59
 title: Carmen Lagala
 date: 2017-06-28
 image: Carmen-Lagala.jpg
