@@ -1,5 +1,5 @@
 ---
-number: 
+number: 70
 title: Albert Kirchner  
 date: 2017-10-11
 image: Albert-Kirchner.jpg
