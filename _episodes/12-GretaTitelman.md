@@ -1,7 +1,7 @@
 ---
-number: 11
+number: 12
 title: Greta Titelman
-date: 2016-6-14
+date: 2016-8-16
 image: Greta-Titelman.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Greta%20Titelman%20copy.mp3
 duration: 50:02
