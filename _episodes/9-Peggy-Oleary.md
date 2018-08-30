@@ -1,5 +1,5 @@
 ---
-number: 09
+number: 9
 title: Peggy O'Leary
 date: 2016-06-20
 image: Peggy-Oleary.jpg
