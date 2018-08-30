@@ -1,7 +1,7 @@
 ---
-number: 22
+number: 
 title: Carmen Lagala
-date: 2016-715
+date: 2017-06-28
 image: Carmen-Lagala.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Carmen%20Lagala%20Release.mp3
 duration: 44:00
