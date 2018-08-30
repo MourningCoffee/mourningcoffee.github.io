@@ -1,7 +1,7 @@
 ---
-number: 17
+number: 54
 title: Liz Magee
-date: 2016-6-19
+date: 2017-05-18
 image: Liz-Magee.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Liz%20Magee%20Release.mp3
 duration: 45:08
