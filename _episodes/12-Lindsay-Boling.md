@@ -1,7 +1,7 @@
 ---
-number: 18
+number: 12
 title: Lindsay Boling
-date: 2016-06-24
+date: 2016-07-04
 image: Lindsay-Boling.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Liz%20Magee%20Release.mp3
 duration: 47:05
