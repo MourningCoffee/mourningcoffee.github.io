@@ -1,5 +1,5 @@
 ---
-number: 10
+number: 03
 title: Courtney Maginnis
 date: 2016-04-25
 image: Courtney-Maginnis.jpg
