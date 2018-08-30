@@ -1,7 +1,7 @@
 ---
-number: 23
+number: 32
 title: Brandon Ream
-date: 2016-07-24
+date: 2016-12-06
 image: Brandon-Ream.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Brandon%20Ream%20Release.mp3 
 duration: 42:43
