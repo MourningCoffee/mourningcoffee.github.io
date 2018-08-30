@@ -1,5 +1,5 @@
 ---
-number: 
+number: 69
 title: Hayden Maxwell
 date: 2017-09-27
 image: Hayden-Maxwell.jpg
