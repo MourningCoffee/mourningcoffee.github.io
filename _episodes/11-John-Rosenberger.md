@@ -1,7 +1,7 @@
 ---
-number: 2
+number: 11
 title: John Rosenberger
-date: 2016-04-21
+date: 2016-06-27
 image: John-Rosenberger.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/MC%20Episode%202.mp3
 duration: 48:37
