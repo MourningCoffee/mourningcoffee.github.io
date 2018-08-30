@@ -1,5 +1,5 @@
 ---
-number: 
+number: 66
 title: Carlos Delgado
 date: 2017-09-08
 image: Carlos-Delgado.jpg
