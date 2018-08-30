@@ -1,7 +1,7 @@
 ---
-number: 11
+number: 24
 title: Omar Capra
-date: 2016-6-11
+date: 2016-10-04
 image: Omar-Bingo.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Omar%20Capra%20Release.mp3
 duration: 40:18
