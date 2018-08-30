@@ -1,5 +1,5 @@
 ---
-number: 59
+number: 58
 title: Ryan T. Bennett
 date: 2017-06-20
 image: Ryan-Bennett.jpg
