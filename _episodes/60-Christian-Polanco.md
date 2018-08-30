@@ -1,5 +1,5 @@
 ---
-number:   
+number: 60
 title: Christian Polanco
 date: 2017-07-05
 image: Christian-Polanco.jpg
