@@ -1,5 +1,5 @@
 ---
-number: 
+number: 67
 title: Justin Hill
 date: 2017-09-14
 image: Justin-Hill.jpg
