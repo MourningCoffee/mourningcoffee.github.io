@@ -1,5 +1,5 @@
 ---
-number: 
+number: 71
 title: Jake Head
 date: 2017-10-19
 image: Jake-Head.jpg
