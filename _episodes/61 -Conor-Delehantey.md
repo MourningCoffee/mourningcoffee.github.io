@@ -1,7 +1,7 @@
 ---
 number: 61
 title: Conor Delehantey
-date: 2017-07-18
+date: 2017-07-20
 image: conor-delehanty.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Conor%20Delehantey%20Release.mp3
 duration: 46:48
