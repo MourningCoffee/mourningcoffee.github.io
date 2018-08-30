@@ -1,7 +1,7 @@
 ---
-number: 26
-title: Calvin Cato
-date: 2016-08-01
+number: 41
+title: Calvin S. Cato
+date: 2017-02-16
 image: Calvin-Cato.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Calvin%20Cato%20Release.mp3
 duration: 38:15
