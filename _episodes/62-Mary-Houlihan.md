@@ -1,7 +1,7 @@
 ---
 number: 62
 title: Mary Houlihan
-date: 2017-07-25
+date: 2017-07-26
 image: mary-houlihan.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/mourning-coffee-62-mary-houlihan.mp3
 duration: 42:04
