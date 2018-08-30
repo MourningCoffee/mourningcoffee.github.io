@@ -1,7 +1,7 @@
 ---
-number: 16
+number: 46
 title: Sam Evans
-date: 2016-6-15
+date: 2017-03-21
 image: Sam-Evans.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Sam%20Evans%20Export.mp3
 duration: 44:42
