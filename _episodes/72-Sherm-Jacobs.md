@@ -1,5 +1,5 @@
 ---
-number: 
+number: 72
 title: Sherm Jacobs
 date: 2017-10-26
 image: Sherm-Jacobs.jpg
