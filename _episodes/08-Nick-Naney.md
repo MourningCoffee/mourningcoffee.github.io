@@ -1,5 +1,5 @@
 ---
-number: 
+number: 08
 title: Nick Naney
 date: 2016-06-06
 image: Nick-Naney.jpg
