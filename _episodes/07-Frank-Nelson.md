@@ -1,7 +1,7 @@
 ---
-number:
+number: 07
 title: Frank Nelson
-date: 2016-6-6
+date: 2016-05-23
 image: Frank-Nelson.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Episode%209%20-%20Frank%20Nelson%20Release.mp3
 duration: 45:42
