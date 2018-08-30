@@ -1,7 +1,7 @@
 ---
-number: 19
+number: 18
 title: Alexis Guerreros
-date: 2016-06-28
+date: 2016-08-18
 image: Alexis-Guerreros.jpg
 audio: https://storage.googleapis.com/mourning-coffee-episodes/Alexis%20Guerreros%20Release.mp3
 duration: 47:06
