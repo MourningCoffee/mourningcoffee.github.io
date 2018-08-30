@@ -1,5 +1,5 @@
 ---
-number: 13
+number: 9
 title: Dewey Lovett
 date: 2016-6-13
 image: Dewey-Lovett.jpg
