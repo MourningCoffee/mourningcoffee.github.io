@@ -38,6 +38,9 @@
 
 
         {% for episode in site.episodes | sort_by: "number" | limit: {{site.feedlimit}}  %}
+        {% assign minutes = episode.duration | divided_by: 60 | floor %}}
+        {% assign seconds =  episode.duration | modulo: 60 | floor %}
+
         <item>
             <title>{{ episode.title | xml_escape }}</title>
             <link>{{ site.url }}{{ episode.url }}</link>
@@ -48,7 +51,7 @@
             <itunes:author>{{ site.author }}</itunes:author>
             <itunes:subtitle>{{ episode.excerpt | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ episode.excerpt | xml_escape }}</itunes:summary>
-            <itunes:duration>{{ episode.duration }}</itunes:duration>
+            <itunes:duration>{{minutes}}:{% if seconds < 10 %}0{% endif %}{{ seconds }}</itunes:duration>
             <itunes:image href="{{ site.url }}{{site.baseurl}}/episode-images/{{episode.image}}" />
             <itunes:explicit>yes</itunes:explicit>
             <itunes:block>no</itunes:block>
