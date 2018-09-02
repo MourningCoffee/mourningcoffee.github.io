@@ -44,7 +44,7 @@
             <pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
             <description>{{ episode.excerpt | xml_escape }}</description>
             <guid isPermaLink="true">{{ site.url }}{{ episode.url }}</guid>
-            <enclosure url="http:{{ episode.audio }}" length="{{ episode.filesize }}" type="audio/mp3"/>
+            <enclosure url="{{ episode.audio }}" length="{{ episode.filesize }}" type="audio/mp3"/>
             <itunes:author>{{ site.author }}</itunes:author>
             <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
             <itunes:summary>{{ episode.excerpt | xml_escape }}</itunes:summary>
