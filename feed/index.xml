@@ -46,7 +46,7 @@
             <guid isPermaLink="true">{{ site.url }}{{ episode.url }}</guid>
             <enclosure url="{{ episode.audio }}" length="{{ episode.filesize }}" type="audio/mp3"/>
             <itunes:author>{{ site.author }}</itunes:author>
-            <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
+            <itunes:subtitle>{{ episode.excerpt | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ episode.excerpt | xml_escape }}</itunes:summary>
             <itunes:duration>{{ episode.duration }}</itunes:duration>
             <itunes:image href="{{ site.url }}{{site.baseurl}}/episode-images/{{episode.image}}" />
