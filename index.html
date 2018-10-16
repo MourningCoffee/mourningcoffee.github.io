@@ -28,15 +28,16 @@ layout: default
 					{% endfor %}
 					
 					<h2 class="title-default">Featured Episodes</h2>
-
-					{% for top_episode in site.top_episodes %}
-						{% for episode in episodes %}
-							{% if episode.number == top_episode %}
+						{% assign episode_number = 0 %}
+						{% for episode in episodes reversed %}
+							{% unless forloop.first %}
 								{% include episode-card.html %}
-								{% break %}
-							{% endif %}
+								{% assign episode_number = episode_number | plus: 1 %}
+								{% if episode_number > 5 %}
+									{% break %}
+								{% endif %}
+							{% endunless %}
 						{% endfor %}
-					{% endfor %}
 
 
 
@@ -46,7 +47,7 @@ layout: default
 
 					<div class="row">
 						<div class="col-sm-12 mb-50">
-							<a href="podcasts.html" class="btn btn-primary btn-block btn-lg">View more episodes</a>
+							<a href="/all-episodes" class="btn btn-primary btn-block btn-lg">View more episodes</a>
 						</div>
 					</div>
 					

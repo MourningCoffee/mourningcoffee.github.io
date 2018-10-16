@@ -121,5 +121,32 @@
 			$('html, body').animate({ scrollTop: ($(to).offset().top)}, 1000);
 			return false;
 		});
-	
+
+	/* ========================= */
+	/* 	   		EPISODE TABS	     */
+	/* ========================= */
+	$('#ep-tabs a:not(:first)').addClass('inactive');
+	$('.episode-tab-content').hide();
+	$('.episode-tab-content:first').show();
+	$('#ep-tabs a').click(function(){
+	  var t = $(this).attr('id');
+
+	  if($(this).hasClass('inactive')){ //this is the start of our condition 
+	    $('#ep-tabs a').addClass('inactive');           
+	    $(this).removeClass('inactive');
+
+	    $('.episode-tab-content').hide();
+	    $('#'+ t + 'C').fadeIn('slow');
+	 }
+	});
+
+	/*
+	$(window).on('hashchange',function(){ 
+    $("#episode-tab-content").hide();
+    var active_tab = "." + location.hash.slice(1);
+    console.log(active_tab);
+    $(active_tab).show();
+	});
+	*/
+
 })(jQuery);

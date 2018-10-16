@@ -37,13 +37,36 @@ layout: default
 					
 					<!-- ===== SECTION TITLE ===== -->
 					<h2 id="featured-episodes" class="title-default">All Episodes</h2>
-				
+					<h3 id="ep-tabs"><a id="mcclassics" class="tab active-tab">MC Classics</a> | <a id="season1" class="tab">Season 1</a> | <a id="season2" class="tab">Season 2</a></h3>
 					{% assign episodes = site.episodes | sort: 'number' %}
-					<p>Number of eps {{ episodes.size }}</p>
-					{% for episode in episodes reversed %}					
-							{% include all-episode-card.html %}
-					{% endfor %}
+					<div id="mcclassicsC" class="episode-tab-content">
+						{% for top_episode in site.top_episodes %}
+							{% for episode in episodes %}					
+									{% if episode.number == top_episode %}
+										{% include all-episode-card.html %}
+									{% endif %}
+							{% endfor %}
+						{% endfor %}
+					</div>
+					<div class="season2 episode-tab-content">
+						{% for episode in episodes reversed %}					
+								{% if episode.season == 2 %}
+									{% include all-episode-card.html %}
+								{% endif %}
+						{% endfor %}
+					</div>
+					<div id="season1C" class="episode-tab-content">
+						{% for episode in episodes reversed %}					
+								{% unless episode.season %}
+									{% include all-episode-card.html %}
+								{% endunless %}
+						{% endfor %}
+					</div>
 					
 				</div>
 			</section>
 		</main>
+
+		<script>
+		
+		</script>
