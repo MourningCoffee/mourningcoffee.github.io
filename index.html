@@ -17,7 +17,7 @@ layout: default
 				<div class="container">
 					
 					<!-- ===== SECTION TITLE ===== -->
-					<h2 id="featured-episodes" class="title-default">Latest Episode</h2>
+					<h2 id="latest-episodes" class="title-default">Latest Episodes</h2>
 					
 					{% assign episodes = site.episodes | sort: 'number' %}
 					{% for episode in episodes reversed %}
@@ -27,7 +27,7 @@ layout: default
 						{% endif %}
 					{% endfor %}
 					
-					<h2 class="title-default">Featured Episodes</h2>
+
 						{% assign episode_number = 0 %}
 						{% for episode in episodes reversed %}
 							{% unless forloop.first %}

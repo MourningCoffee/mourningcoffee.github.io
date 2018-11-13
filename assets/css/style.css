@@ -2589,10 +2589,10 @@ form .form-callback.error {
 
 .menu {
 	position: absolute;
-	top: 100%;
+	top: 60px;
 	left: 0;
 	width: 100%;
-	background: #110f16;
+	/*background: #110f16;*/
 	display: none;
 }
 

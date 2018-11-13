@@ -14,7 +14,7 @@ layout: default
           
             <ul class="menu">
 
-                <li class="menuitem"><a href="/#featured-episodes">Featured Episodes</a></li>
+                <li class="menuitem"><a href="/#latest-episodes">Latest Episodes</a></li>
                 <li class="menuitem"><a href="/all-episodes">All Episodes</a></li>
                 <li class="menuitem"><a href="/#about">About</a></li>
             </ul>
@@ -48,18 +48,20 @@ layout: default
 							{% endfor %}
 						{% endfor %}
 					</div>
-					<div class="season2 episode-tab-content">
-						{% for episode in episodes reversed %}					
-								{% if episode.season == 2 %}
+					<div id="season2C" class="episode-tab-content">
+						{% for episode in episodes reversed %}
+								{% assign season = episode.number | split: '' | first %}	
+								{% if season == '2' %}
 									{% include all-episode-card.html %}
 								{% endif %}
 						{% endfor %}
 					</div>
 					<div id="season1C" class="episode-tab-content">
 						{% for episode in episodes reversed %}					
-								{% unless episode.season %}
+								{% assign season = episode.number | split: '' | first %}
+								{% if season == '1' %}
 									{% include all-episode-card.html %}
-								{% endunless %}
+								{% endif %}
 						{% endfor %}
 					</div>
 					
