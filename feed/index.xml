@@ -37,9 +37,9 @@
         <itunes:explicit>yes</itunes:explicit>
 
 
-        {% for episode in site.episodes | sort_by: "number" | limit: {{site.feedlimit}}  %}
-        {% assign minutes = episode.duration | divided_by: 60 | floor %}}
-        {% assign hours = minutes | divided_by: 60 | floor %}}
+        {% for episode in site.episodes | sort_by: 'number' | limit: site.feedlimit  %}
+        {% assign minutes = episode.duration | divided_by: 60 | floor %}
+        {% assign hours = minutes | divided_by: 60 | floor %}
         {% if hours > 0 %}
             {% assign subtract = hours | times: 60 %}
             {% assign minutes = minutes | minus: subtract  %}

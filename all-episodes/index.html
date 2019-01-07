@@ -37,10 +37,10 @@ layout: default
 					
 					<!-- ===== SECTION TITLE ===== -->
 					<h2 id="featured-episodes" class="title-default">All Episodes</h2>
-					<h3 id="ep-tabs"><a id="mcclassics" class="tab active-tab">MC Classics</a> | <a id="season1" class="tab">Season 1</a> | <a id="season2" class="tab">Season 2</a></h3>
+					<h3 id="ep-tabs"><a id="mcclassics" class="tab active-tab">MC&nbsp;Classics</a> &nbsp;&nbsp; <a id="season1" class="tab">Season&nbsp;1</a> &nbsp;&nbsp; <a id="season2" class="tab">Season&nbsp;2</a></h3>
 					{% assign episodes = site.episodes | sort: 'number' %}
 					<div id="mcclassicsC" class="episode-tab-content">
-						{% for top_episode in site.top_episodes %}
+						{% for top_episode in site.mc_classics %}
 							{% for episode in episodes %}					
 									{% if episode.number == top_episode %}
 										{% include all-episode-card.html %}

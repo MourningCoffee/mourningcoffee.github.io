@@ -18,7 +18,14 @@ top_episodes:
   - 130
   - 104
 
-feedlimit: 100
+mc_classics:
+  - 120
+  - 121
+  - 145
+  - 132
+  - 106
+
+feedlimit: 200
 
 
 

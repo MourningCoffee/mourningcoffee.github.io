@@ -2808,5 +2808,17 @@ form .form-callback.error {
 	padding-right: 10px;
 }
 
+#ep-tabs {
+	font-size: 20px;
+}
+
+#ep-tabs a:hover {
+	color: white;
+}
+
+#ep-tabs a:not(.inactive) {
+	text-decoration: underline;
+	color: white;
+} 
 
 
