@@ -8,5 +8,5 @@ duration: 44:15
 filesize: 43166652
 ---
 
-The orignal Mourning Coffee Producer retursn to this new season! We chat about the loss of his cat and the important role 
+The original Mourning Coffee Producer returns to this new season! We chat about the loss of his cat and the important role 
 pets can play in our lives. Follow him at @JohnJohnPhenom on twitter and listen to the podcast he produces now called Significant Others
