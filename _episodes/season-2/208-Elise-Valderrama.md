@@ -3,7 +3,7 @@ number: 208
 title: Elise Valderrama
 date: 2019-04-29
 image: Elise-v.jpg
-audio: https://storage.googleapis.com/mourning-coffee-episodes/Season%202/Gideon%20Hambright%20Final.mp3
+audio: https://storage.googleapis.com/mourning-coffee-episodes/Season%202/Elise%20Valderrama%20Final.mp3
 duration: 44:18
 filesize: 40443825
 ---
